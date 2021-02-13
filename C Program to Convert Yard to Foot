@@ -1,0 +1,31 @@
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+void main() {
+
+  float yard;
+  float foot;
+  
+
+//    clrscr();
+
+	printf(" Program to convert Yard to Foot :  ");
+
+	printf("\n\n Enter Length in Yard  : ");
+	scanf("%f", &yard);
+    
+    foot = (3*yard);
+    
+    printf("\n\n %f Yard in Foot = %f  \n",yard,foot);
+
+
+
+//	getch();
+
+
+
+}
